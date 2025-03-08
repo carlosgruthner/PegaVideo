@@ -1,0 +1,2 @@
+pyinstaller --onefile --windowed --icon=video.ico --add-data "video.ico;." --add-data "C:\Python313\Lib\site-packages\customtkinter;customtkinter" --hidden-import customtkinter --hidden-import yt_dlp --hidden-import darkdetect .\PegaVideo.py
+#Obs - C:\Python313 é a versão do python que estou usando. Selecione a versão correta.
